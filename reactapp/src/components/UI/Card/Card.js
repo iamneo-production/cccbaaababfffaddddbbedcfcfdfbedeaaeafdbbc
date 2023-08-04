@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "../Button/Button";
+import Button from "./Button/Button";
 
 const Card = ({  question, correctAnswerMarkUpdate, attempt, options, answer ,setQsns,qsn ,setCard,qsnAttempt}) => {
     // Creating an array of options
