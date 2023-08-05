@@ -31,7 +31,7 @@ const Card = ({  question, correctAnswerMarkUpdate, attempt, options, answer ,se
             <h4 className="pt-3 pb-1">{question}</h4>
             <div className="flex space-x-2">
                 {optionsArray.map((option, index) =>
-                <Button key={index.js} marked={marked} onClick={() => click(option)} style={!marked ? norm : disable} >{ option }</Button>
+                <Button key={index} marked={marked} onClick={() => click(option)} style={!marked ? norm : disable} >{ option }</Button>
                 )}
             </div>
         </div>
